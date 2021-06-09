@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Rivera_Landscaping/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/Rivera_Landscaping/static/js/main.43e8a113.chunk.js",
+    "main.js.map": "/Rivera_Landscaping/static/js/main.43e8a113.chunk.js.map",
+    "runtime-main.js": "/Rivera_Landscaping/static/js/runtime-main.175b1061.js",
+    "runtime-main.js.map": "/Rivera_Landscaping/static/js/runtime-main.175b1061.js.map",
+    "static/js/2.3eadd8b7.chunk.js": "/Rivera_Landscaping/static/js/2.3eadd8b7.chunk.js",
+    "static/js/2.3eadd8b7.chunk.js.map": "/Rivera_Landscaping/static/js/2.3eadd8b7.chunk.js.map",
+    "static/js/3.684e6cbb.chunk.js": "/Rivera_Landscaping/static/js/3.684e6cbb.chunk.js",
+    "static/js/3.684e6cbb.chunk.js.map": "/Rivera_Landscaping/static/js/3.684e6cbb.chunk.js.map",
+    "index.html": "/Rivera_Landscaping/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/Rivera_Landscaping/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.3eadd8b7.chunk.js.LICENSE.txt": "/Rivera_Landscaping/static/js/2.3eadd8b7.chunk.js.LICENSE.txt",
+    "static/media/landscape4.jpg": "/Rivera_Landscaping/static/media/landscape4.87635826.jpg",
+    "static/media/logo2.png": "/Rivera_Landscaping/static/media/logo2.63b76b4d.png",
+    "static/media/serviceArea.png": "/Rivera_Landscaping/static/media/serviceArea.f87d38bb.png",
+    "static/media/video.54e59a58.mp4": "/Rivera_Landscaping/static/media/video.54e59a58.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.175b1061.js",
+    "static/js/2.3eadd8b7.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.43e8a113.chunk.js"
+  ]
+}
