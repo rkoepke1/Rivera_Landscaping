@@ -15,7 +15,7 @@ import {
 const Header = ({toggle}) => {
     return (
         <>
-            <HeaderContainer id="home">
+            <HeaderContainer id="/">
                 <MobileIcon  onClick={toggle}> 
                         <FaBars />
                 </MobileIcon>
