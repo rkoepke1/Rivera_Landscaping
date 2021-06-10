@@ -66,7 +66,7 @@ export const PropsH1 = styled.h1
     text-align: center;
     white-space: pre-wrap;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         font-size: 40px;
      }
 
@@ -83,7 +83,7 @@ export const PropsP = styled.p
     text-align: center;
     max-width: 600px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         font-size: 24px;
      }
 

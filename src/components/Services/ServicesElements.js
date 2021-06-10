@@ -7,7 +7,7 @@ export const ServiceContainer = styled.div
     display:flex;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#EB712F')};
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         padding: 100px 0;
     }
 `
@@ -61,7 +61,7 @@ export const ServiceRow = styled.div
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col2 col1'`)};
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col' 'col2'` : `'col1 col1' 
         'col2 col2'`)};
 
@@ -101,7 +101,7 @@ export const TextWrapper = styled.div
     align-items: center;
     justify-items: center;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         justify-content: left;
         align-items: center;
         font-size: 24px;
@@ -121,7 +121,7 @@ export const TopLine = styled.div
     text-align: left;
     line-height: 30px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         justify-content: left;
         align-items: center;
         font-size: 24px;
@@ -143,7 +143,7 @@ export const ListWrapper= styled.div
     justify-content: space-evenly;
     z-index: 1;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         margin-top: 25px;
         justify-items: start;
         align-items: center;

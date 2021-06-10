@@ -8,7 +8,7 @@ export const Phone = styled.text
     font-size: 20px;
     font-weight: bold;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         display: none;
     }  
 `
@@ -24,7 +24,7 @@ export const HeaderContainer = styled.div
     max-width: 0fpx
     position:fixed;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         justify-items: start;
         align-items: center;
         justify-content: space-between;
@@ -33,7 +33,7 @@ export const HeaderContainer = styled.div
 export const HeaderLogo = styled(LinkR)
 `
 cursor: pointer;
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     justify-content: start;
 } 
 `
@@ -44,7 +44,7 @@ export const NavBtn = styled.nav
     flex-direction: column;
     align-items: center;
 
-     @media screen and (max-width: 768px) {
+     @media screen and (max-width: 480px) {
          display: none;
      }  
 `
@@ -76,7 +76,7 @@ export const MobileIcon = styled.div
 `
     display: none;
     position: fixed;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         display: flex;
         position: fixed;
         top: 0;
