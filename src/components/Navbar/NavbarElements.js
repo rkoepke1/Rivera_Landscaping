@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav
 `
-    background:  #013220;
+    background:  #D0DB61;
     height: 40px;
     margin-top: 0px;
     display: flex;
@@ -71,6 +71,7 @@ export const NavMenu = styled.ul
     list-style: none;
     text-align: center;
     margin-right: -22px;
+    padding-top: 20px;
 
     @media screen and (max-width: 480px) {
         display: none;
@@ -79,15 +80,16 @@ export const NavMenu = styled.ul
 
 export const NavItem = styled.li
 `
-justify-items: center;
+    justify-items: center;
     height: 40px;
 `
 
 export const NavLinks = styled(LinkS)
 `
-    color: #fff;
+    color: #000;
     display: flex;
     align-items: center;
+    padding-top: 40px;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
@@ -101,7 +103,7 @@ export const NavLinks = styled(LinkS)
     &:hover {
         transition: all 0.2s ease-in-out;
         box-shadow: 2px 2px 2px 2px #000;
-        background: #e25822;
+        background: #006400;
         color: #fff;
     }
 `;

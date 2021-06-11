@@ -6,6 +6,7 @@ import Props from '../components/PropsElements'
 import Services from '../components/Services'
 import InfoSection from '../components/InfoSection'
 import { homeObjOne } from '../components/InfoSection/Data'
+
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 

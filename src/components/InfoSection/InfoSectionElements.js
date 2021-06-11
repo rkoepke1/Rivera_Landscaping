@@ -5,31 +5,64 @@ export const InfoContainer = styled.div
     color: #fff;
     height: 750px;
     display:flex;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#FF853F')};
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#F8F0C6')};
 
     @media screen and (max-width: 480px) {
-        padding: 100px 0;
+        padding-top: 100px;
+
+        height: 100%;
     }
+`
+export const InfoWrapper = styled.div
+`
+    display: grid;
+    height: 700px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 0 24px;
+    justify-content: center;
+`
+export const Heading = styled.div
+`
+    width: 100%;
+    display: flex;
+    margin-top: 125px;
+    height: 0rem;
+    align-items:center;
+    justify-content: center;
+    position: flex;
+    top: 0;
+    @media screen and (max-width: 480px) {
+        margin-top: -50px;
+    };
 `
 export const LogoImg = styled.img
 `
     justify-content: center;
     align-content: center;
     height: 100px;
+    @media screen and (max-width: 480px) {
+        height: 50px;
+    }
 
 `
-export const InfoWrapper = styled.div
+export const TextWrapper = styled.div
 `
-    display: grid;
-    z-index: 1;
-    height: 700px;
-    width: 100%;
-    max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto; 
-    padding: 0 24px;
-    justify-content: center;
+    padding-top: 0;
+    color: black;
+    font-size: 36px;
+    line-height: 16px;
+    font-weight: 700;
+    align-items: center;
+    justify-items: center;
+
+    @media screen and (max-width: 768px){
+        line-height: 24px;
+        font-size: 30px;
+    }
 `
+
 export const InfoRow = styled.div
 `
     display: grid;
@@ -57,16 +90,7 @@ export const Column2 = styled.div
     grid-area: col2;
     
 `
-export const TextWrapper = styled.div
-`
-    padding-top: 0;
-    color: black;
-    font-size: 48px;
-    line-height: 16px;
-    font-weight: 700;
-    align-items: center;
-    justify-items: center;
-`
+
 export const TopLine = styled.div
 `
     color: black;
@@ -76,21 +100,9 @@ export const TopLine = styled.div
     letter-spaceing: 1.4px;
     padding-bottom: 30px;
 `
-export const Heading = styled.div
-`
-    width: 100%;
-    display: flex;
-    margin-top: 100px;
-    height: 0rem;
-    align-items:center;
-    justify-content: center;
-    position: flex;
-    top: 0;
-    z-index: 1;
-`
+
 export const Subtitle = styled.div
 `
-    max-width: 440px;
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
@@ -99,18 +111,28 @@ export const Subtitle = styled.div
 export const BtnWrap = styled.div
 `
     display: flex;
-    justify-content: flex-start;
+
+
 `
 
 export const ImgWrap = styled.div
 `
-    max-width: 555px;
+    width: 100%;
+    display: flex;
+
     height: 100%;
+    justify-content: center;
+    
 `
 
 export const Img = styled.img
 `
     width: 100%;
+    margin-top: 50px;
     margin: 0 0 10pz 0;
     padding-right: 0;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        justify-content: center;
+    }
 `

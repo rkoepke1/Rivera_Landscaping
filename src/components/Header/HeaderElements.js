@@ -1,12 +1,14 @@
 import styled from 'styled-components'
-import { Link as LinkR } from 'react-scroll'
+import { Link as LinkR } from 'react-router-dom'
+import { Link as LinkS } from 'react-scroll'
 
-export const Phone = styled.text
+export const Phone = styled(LinkR)
 `
     display: flex;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
+    color: black;
 
     @media screen and (max-width: 480px) {
         display: none;
@@ -14,28 +16,28 @@ export const Phone = styled.text
 `
 export const HeaderContainer = styled.div
 `
-    background: #800000;
+    background: #F6E8B1;
     position: sticky;
     height: 175px; 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 50px;
-    max-width: 0fpx
+    max-width: 100px
     position:fixed;
 
     @media screen and (max-width: 480px) {
+        height: 100px; 
         justify-items: start;
         align-items: center;
-        justify-content: space-between;
     }  
 `
-export const HeaderLogo = styled(LinkR)
+export const HeaderLogo = styled(LinkS)
 `
-cursor: pointer;
-@media screen and (max-width: 480px) {
-    justify-content: start;
-} 
+    cursor: pointer;
+    @media screen and (max-width: 480px) {
+        justify-content: start;
+    } 
 `
 
 export const NavBtn = styled.nav 
@@ -78,25 +80,35 @@ export const MobileIcon = styled.div
     position: fixed;
     @media screen and (max-width: 480px) {
         display: flex;
-        position: fixed;
-        top: 0;
+        position: flex;
+        top: 10px;
         right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #fff;
-        z-index: 1;
+        color: #000;
+        z-index: 20;
     }
 `
 
 export const ImgWrap = styled.div
 `
-    max-width: 555px;
-    height: 100%;
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
 `
 
 export const Img = styled.img
 `
     height: 175px;
     width: 500px;
+    @media screen and (max-width: 480px){
+        height: 100px;
+        width: 300px;
+        margin: 0 0 10pz 0;
+        padding-right: 0;
+    }
 `

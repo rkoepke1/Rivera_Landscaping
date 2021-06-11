@@ -29,21 +29,21 @@ const InfoSection = ({img, id, description, alt, headLine, topLine, buttonLabel}
                     </TextWrapper>
                 </Heading>
                   <InfoRow>
-                  
-                    <Column1>-
-                    <TextWrapper>
-                        <TopLine>{description}</TopLine>
-                        <Subtitle>{topLine}</Subtitle>
-                        <BtnWrap>
-                            <Button to='quote'>{buttonLabel}</Button>
-                        </BtnWrap>
-                    </TextWrapper>
-                    </Column1>
-                    <Column2>
+                  <Column1>
                         <ImgWrap>
                             <Img src={img} alt={alt}/>
                         </ImgWrap>
+                    </Column1>
+                    <Column2>
+                        <TextWrapper>
+                            <TopLine>{description}</TopLine>
+                            <Subtitle>{topLine}</Subtitle>
+                        </TextWrapper>
+                        <BtnWrap>
+                                <Button to='quote'>{buttonLabel}</Button>
+                        </BtnWrap>
                     </Column2>
+
                   </InfoRow>
               </InfoWrapper>
             </InfoContainer>  

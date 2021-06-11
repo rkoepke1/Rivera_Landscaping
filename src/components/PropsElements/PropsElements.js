@@ -10,7 +10,7 @@ export const PropsContainer = styled.div
     padding: 0 30px;
     height: 800px;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 
     :before {
         content: '';
@@ -22,7 +22,7 @@ export const PropsContainer = styled.div
         background: 
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%),
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
-        z-index: 2;
+        z-index: 0;
     }
 `
 
@@ -139,5 +139,5 @@ export const Heading = styled.div
     justify-content: center;
     position: flex;
     top: 0;
-    z-index: 1;
+    z-index: 0;
 `

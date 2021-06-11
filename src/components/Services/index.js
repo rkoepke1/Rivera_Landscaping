@@ -1,75 +1,54 @@
 import React from 'react'
 import {Button} from '../ButtonElement.js'
-import {
-        ServiceContainer, 
-        ServiceRow, 
-        ServiceWrapper,
-        Column1, 
-        Column2, 
-        TextWrapper,
-        InfoWrapper,
-        LogoImg,
-        LogoText,
-        ImgWrap, 
-        Img,
-        ListWrapper,
-        List,
-        TopHeading,
-        TopLine,
-        BtnWrap
-    } from './ServicesElements'
 
-    
-const Services = () => {
+import {
+    InfoContainer,
+    InfoWrapper,
+    InfoRow,
+    Column1,
+    TextWrapper,
+    TopLine,
+    Heading,
+    Subtitle,
+    BtnWrap,
+    Column2,
+    ImgWrap,
+    Img,
+    LogoImg
+} from './ServicesElements'
+
+const InfoSection = () => {
     return (
         <>
-            <ServiceContainer id="services">
-                <InfoWrapper>
-                    <TopHeading >
-                        <LogoImg src={require("../../images/logo2.png").default}/>
-                        <LogoText>
-                            Services
-                        </LogoText>
-                    </TopHeading>
-                <ServiceWrapper>
-                    <ServiceRow>
-                        <Column1>
+            <InfoContainer id="services">
+              <InfoWrapper>
+                <Heading >
+                    <LogoImg src={require("../../images/logo2.png").default}/>
+                    <TextWrapper>
+                        Hello
+                    </TextWrapper>
+                </Heading>
+                  <InfoRow>
+                  <Column2>
+                        <ImgWrap>
+                            <Img src={require("../../images/serviceArea.png").default} alt="...loading" />
+                        </ImgWrap>
+                    </Column2>
+                    <Column1>
+                        <TextWrapper>
+                            <TopLine>Topline</TopLine>
+                            <Subtitle>Subtitle</Subtitle>
+                        </TextWrapper>
                         <BtnWrap>
-                            <Button to="quote">
-                                Get Started Now!
-                            </Button>
+                                <Button to='quote'>label</Button>
                         </BtnWrap>
-                            <TextWrapper> 
-                                Our Services 
-                            </TextWrapper>
-                            <ListWrapper>
-                                <List>
-                                    <li>Lawn Maintenance </li>
-                                    <li>Turf Management</li>
-                                    <li>Landscape Installstion</li>
-                                    </List>
-                                    <List>
-                                    <li>Aeration and Seeding</li>
-                                    <li>Tree and Shrub</li>
-                                    <li>Irrigation</li>
-                                    <li>Drainage Enhancement</li>
-                                </List>  
-                            </ListWrapper>
-                        </Column1>
-                        <Column2>
-                            <TopLine>
-                                    We are proud to offer a variety proffesional landscaping services around Maryland and Virginia.
-                            </TopLine>
-                            <ImgWrap>
-                                <Img src={require("../../images/serviceArea.png").default} alt="loading..." />
-                            </ImgWrap>
-                        </Column2>
-                    </ServiceRow>
-                </ServiceWrapper>
-                </InfoWrapper>
-            </ServiceContainer>
+                    </Column1>
+
+                  </InfoRow>
+              </InfoWrapper>
+            </InfoContainer>  
         </>
     )
 }
 
-export default Services
+export default InfoSection

@@ -1,60 +1,69 @@
 import styled from 'styled-components'
 
-export const ServiceContainer = styled.div
+export const InfoContainer = styled.div
 `
     color: #fff;
     height: 750px;
     display:flex;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#EB712F')};
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#FFFDD1')};
 
     @media screen and (max-width: 480px) {
-        padding: 100px 0;
+        padding-top: 100px;
+
+        height: 100%;
     }
 `
 export const InfoWrapper = styled.div
 `
     display: grid;
-    z-index: 1;
     height: 700px;
     width: 100%;
-    max-width: 1100px;
     margin-right: auto;
     margin-left: auto; 
     padding: 0 24px;
     justify-content: center;
 `
-export const TopHeading = styled.div
+export const Heading = styled.div
 `
     width: 100%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 125px;
     height: 0rem;
     align-items:center;
     justify-content: center;
     position: flex;
     top: 0;
-    z-index: 1;
+    @media screen and (max-width: 480px) {
+        margin-top: -50px;
+    };
 `
 export const LogoImg = styled.img
 `
     justify-content: center;
     align-content: center;
     height: 100px;
+    @media screen and (max-width: 480px) {
+        height: 50px;
+    }
 
 `
-export const ServiceWrapper = styled.div
+export const TextWrapper = styled.div
 `
-    display: grid;
-    z-index: 1;
-    height: 700px;
-    width: 100%;
-    max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto; 
-    padding: 0 24px;
-    justify-content: center;
+    padding-top: 0;
+    color: black;
+    font-size: 36px;
+    line-height: 16px;
+    font-weight: 700;
+    align-items: center;
+    justify-items: center;
+
+    @media screen and (max-width: 768px){
+        line-height: 24px;
+        font-size: 30px;
+    }
 `
-export const ServiceRow = styled.div
+
+export const InfoRow = styled.div
 `
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
@@ -81,91 +90,49 @@ export const Column2 = styled.div
     grid-area: col2;
     
 `
-export const LogoText = styled.div
-`
-    padding-top: 0;
-    color: black;
-    font-size: 48px;
-    line-height: 16px;
-    font-weight: 700;
-    align-items: center;
-    justify-items: center;
-`
-export const TextWrapper = styled.div
-`
-    margin-top: -50px;
-    color: black;
-    font-size: 48px;
-    line-height: 16px;
-    font-weight: 700;
-    align-items: center;
-    justify-items: center;
-
-    @media screen and (max-width: 480px) {
-        justify-content: left;
-        align-items: center;
-        font-size: 24px;
-    } 
-
-`
 
 export const TopLine = styled.div
 `
-    padding-bottom: 30px;
     color: black;
-    font-size: 24px;
-    line-height: 16px;
+    font-size: 32px;
+    line-height: 32px;
     font-weight: 700;
-    align-items: center;
-    justify-items: center;
-    text-align: left;
-    line-height: 30px;
-
-    @media screen and (max-width: 480px) {
-        justify-content: left;
-        align-items: center;
-        font-size: 24px;
-    } 
-
+    letter-spaceing: 1.4px;
+    padding-bottom: 30px;
 `
 
-export const List = styled.div
+export const Subtitle = styled.div
 `
-    
-`
-export const ListWrapper= styled.div
-`
-    display: flex;
-    position: flex;
-    margin-top: 50px;
-    color: black;
-    align-items:left;
-    justify-content: space-evenly;
-    z-index: 1;
-
-    @media screen and (max-width: 480px) {
-        margin-top: 25px;
-        justify-items: start;
-        align-items: center;
-        margin-bottom: 100px;
-    } 
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
 export const BtnWrap = styled.div
 `
     display: flex;
-    margin-bottom: 200px;
-    justify-content: flex-start;
+
+
 `
 
 export const ImgWrap = styled.div
 `
-    max-width: 555px;
+    width: 100%;
+    display: flex;
+
     height: 100%;
+    justify-content: center;
+    
 `
 
 export const Img = styled.img
 `
     width: 100%;
+    margin-top: 50px;
     margin: 0 0 10pz 0;
     padding-right: 0;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        justify-content: center;
+    }
 `

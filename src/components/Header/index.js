@@ -29,11 +29,11 @@ const Header = ({toggle}) => {
                         <Img src={img} alt="Loading..."/>
                     </ImgWrap>
                 </HeaderLogo>
-                <Phone>
+                <Phone to='quote'>
                     
-                     For a free estimate call:
+                     For a free estimate call or text:
                      <br/>
-                     +1 240 644 2801
+                     (240) 644 2801
                     
                 </Phone>
             </HeaderContainer>
