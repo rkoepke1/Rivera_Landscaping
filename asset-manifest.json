@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Rivera_Landscaping/static/css/main.5539eb46.chunk.css",
-    "main.js": "/Rivera_Landscaping/static/js/main.8c0a6ad5.chunk.js",
-    "main.js.map": "/Rivera_Landscaping/static/js/main.8c0a6ad5.chunk.js.map",
+    "main.js": "/Rivera_Landscaping/static/js/main.2c8d1183.chunk.js",
+    "main.js.map": "/Rivera_Landscaping/static/js/main.2c8d1183.chunk.js.map",
     "runtime-main.js": "/Rivera_Landscaping/static/js/runtime-main.175b1061.js",
     "runtime-main.js.map": "/Rivera_Landscaping/static/js/runtime-main.175b1061.js.map",
     "static/js/2.315c1adc.chunk.js": "/Rivera_Landscaping/static/js/2.315c1adc.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.175b1061.js",
     "static/js/2.315c1adc.chunk.js",
     "static/css/main.5539eb46.chunk.css",
-    "static/js/main.8c0a6ad5.chunk.js"
+    "static/js/main.2c8d1183.chunk.js"
   ]
 }
